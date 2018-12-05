@@ -5,9 +5,9 @@
     <title>Index Page</title>
 </head>
 <body>
-    <form method="get" action="{{ url_for('users.agree') }}">
+    <form method="post" action="{{ url_for('send_result') }}">
         <input type="submit" name="agree" value="Agree">
-        <input type="submit" name="disagree" value="Disagree">
+        <input type="submit" name="agree" value="Disagree">
     </form>
 </body>
 </html>
